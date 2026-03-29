@@ -1,0 +1,25 @@
+Package: Friedman
+Title: Tools for Exploring and Modeling Airline Delay Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Miguel", "Andion", email = "mandion@usf.edu", role = c("aut", "cre"))
+Description: Provides tools for cleaning, summarizing, visualizing,
+    and modeling airline delay data. The package is designed to support
+    exploratory analysis and prediction of flight delay patterns using
+    airport, airline, and time-based features for academic and project
+    work.
+Depends: 
+    R (>= 3.1.2)
+Imports: 
+    dplyr,
+    rlang
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/mandion928/Friedman
+BugReports: https://github.com/mandion928/Friedman/issues
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
