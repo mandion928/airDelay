@@ -22,3 +22,11 @@ The **airDelay** package provides tools for cleaning, analyzing, and visualizing
 ```r
 # Install from GitHub (if devtools installed)
 devtools::install_github("mandion928/airDelay")
+```
+
+## Design Notes
+
+The **airDelay** package does not currently define S3 or S4 classes.
+Instead, I've opted to use standard exported R functions that operate on data frames. 
+This design is works because the package focuses on tasks such as
+data cleaning, summarization, outlier detection, and visualization.
