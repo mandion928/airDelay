@@ -3,11 +3,8 @@ Title: Tools for Exploring and Modeling Airline Delay Data
 Version: 0.0.0.9000
 Authors@R: 
     person("Miguel", "Andion", email = "mandion@usf.edu", role = c("aut", "cre"))
-Description: Provides tools for cleaning, summarizing, visualizing,
-    and modeling airline delay data. The package is designed to support
-    exploratory analysis and prediction of flight delay patterns using
-    airport, airline, and time-based features for academic and project
-    work.
+Description: Provides tools for cleaning, summarizing, visualizing, and modeling airline delay data. The package is designed to support
+    exploratory analysis and prediction of flight delay patterns using airport, airline, and time-based features.
 Depends: 
     R (>= 3.1.2)
 Imports: 
